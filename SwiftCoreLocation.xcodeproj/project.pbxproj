@@ -13,6 +13,7 @@
 		4F48148A19E241B100CC752B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F48148919E241B100CC752B /* Images.xcassets */; };
 		4F48148D19E241B100CC752B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F48148B19E241B100CC752B /* LaunchScreen.xib */; };
 		4F48149919E241B100CC752B /* SwiftCoreLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F48149819E241B100CC752B /* SwiftCoreLocationTests.swift */; };
+		4F4814A319E2421400CC752B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4814A219E2421400CC752B /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		4F48149219E241B100CC752B /* SwiftCoreLocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCoreLocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F48149719E241B100CC752B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F48149819E241B100CC752B /* SwiftCoreLocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCoreLocationTests.swift; sourceTree = "<group>"; };
+		4F4814A219E2421400CC752B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F4814A319E2421400CC752B /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		4F48147419E241B100CC752B = {
 			isa = PBXGroup;
 			children = (
+				4F4814A219E2421400CC752B /* CoreLocation.framework */,
 				4F48147F19E241B100CC752B /* SwiftCoreLocation */,
 				4F48149519E241B100CC752B /* SwiftCoreLocationTests */,
 				4F48147E19E241B100CC752B /* Products */,
